@@ -40,10 +40,9 @@ namespace Mistward
                 new Dictionary<string, bool>() { },
                 new Dictionary<string, Tuple<int, bool>>()
                 {
-                    { "BlackMarble", Tuple.Create(30, true) },
-                    { "Copper", Tuple.Create(15, true) },
+                    { "BlackMarble", Tuple.Create(25, true) },
                     { "Sap", Tuple.Create(10, true) },
-                    { "BlackCore", Tuple.Create(1, true) },
+                    { "Wisp", Tuple.Create(1, true) },
                 }
             );
             ValConfig.SetupMainFileWatcher();
